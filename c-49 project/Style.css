@@ -1,0 +1,66 @@
+h1 {color:rgb(255, 0, 0)} 
+h2 {color:rgb(255, 255, 255)}   
+h3 {color:rgb(101, 66, 255)}  
+h4 {color:rgb(101, 66, 255)}
+
+
+body{background-color: #515e61;}
+
+a {color:beige}
+a:visited{color:blueviolet}
+
+.header{
+
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#00FFAA;
+   padding-left:45%;
+
+   transform : translate(0px , 0px);
+}
+
+.Origami{
+
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:#09ff15;
+
+    display:flex;
+    justify-content:space-evenly;
+
+    flex-wrap: wrap;
+
+
+}
+
+.Line{
+   background-color:rgb(64, 195, 255);
+
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   padding-left : 75px;
+
+   position : relative;
+}
+
+
+
+.Object p{
+    position : absolute;
+
+    top : 50%;
+    left : 50%;
+
+    transform : translate(-40% , -50%);
+    opacity:0;
+}
+
+.Object:hover p{
+opacity: 1;
+
+}
+
+.Object:hover img{
+opacity:0.5
+
+}
